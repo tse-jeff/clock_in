@@ -10,11 +10,11 @@
         android:id="@+id/phoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="105dp"
         android:ems="10"
         android:inputType="phone"
         android:text="@string/phoneInput"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,11 +22,11 @@
         android:id="@+id/numInput"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="68dp"
         android:ems="10"
         android:inputType="number"
         android:text="@string/numText"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
 
@@ -34,11 +34,11 @@
         android:id="@+id/numInput2"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="number"
         android:text="@string/numText"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numInput" />
 
